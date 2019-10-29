@@ -1,0 +1,11 @@
+cuvant="secret"
+ghicite= ''
+turns=10
+while turns>0
+ gresit=0
+ for char in world
+    if char is ghicite
+       print char
+    else:
+    print "_"
+    gresit +=1
