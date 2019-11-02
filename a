@@ -9,3 +9,10 @@ while turns>0
     else:
     print "_"
     gresit +=1
+if gresite==0
+print "Ai castigat!"
+break;
+print
+ghicit=raw_input("Ghiceste o litere:"
+ghicite+=ghicit
+if ghicit not in cuvant
