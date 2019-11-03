@@ -1,18 +1,23 @@
 cuvant="secret"
 ghicite= ''
-turns=10
-while turns>0
+incercari=10
+while incercari>0
  gresit=0
- for char in world
+ for char in cuvant
     if char is ghicite
        print char
     else:
-    print "_"
+    print ("_",)
     gresit +=1
 if gresite==0
-print "Ai castigat!"
+    print ("Ai castigat!")
 break;
 print
-ghicit=raw_input("Ghiceste o litere:"
+ghicit=input("Ghiceste o litere:")
 ghicite+=ghicit
 if ghicit not in cuvant
+    incercari-=1
+print("Gresit")
+print("Mai ai",+incercari,'incercari')
+print("Ai pierdut! :(")
+
